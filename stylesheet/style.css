@@ -143,7 +143,7 @@ line-height: 30px; /* 166.667% */
     font-weight: 600; 
     line-height: 56px;
 }
-span {
+#event .event-text li .red {
     color: #F00;
 }
 #event .event-text {
@@ -226,4 +226,149 @@ button {
     font-family: Inter;
     font-size: 20px;
     line-height: 32px;
+}
+/* new year ends */
+/* portfolio starts */
+#portfolio {
+    margin-top: 100px;
+}
+#portfolio h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+#portfolio h2 {
+    padding-bottom: 15px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+#portfolio p {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-part {
+    flex: 0 0 33%;
+    box-sizing: border-box;
+    padding: 10px; 
+}
+
+.portfolio-part img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+.portfolio-part:hover img {
+    border-color: purple;
+}
+/* postfolio ends */
+/* subcriber starts */
+#subscribe {
+    margin-top: 100px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+#subscribe .sub-elements ul {
+    list-style: none;
+} 
+#subscribe .sub-elements ul li {
+    text-align: center;
+}
+#subscribe .sub-elements ul li img {
+    padding-top: 80px;
+}
+#subscribe .sub-elements ul li h3 {
+    padding-top: 40px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+#subscribe .sub-elements ul li p {
+    text-align: center;
+    max-width: 896px;
+    color: rgba(7, 2, 17, 0.60); 
+    font-family: Inter; 
+    font-size: 20px; 
+    font-weight: 400; 
+    line-height: 32px; /* 160% */ 
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 38px;
+}
+input {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+input[type="email"]
+{
+    background: #FFF;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+#subscribe .sub-elements .cribe {
+    display: inline-block;
+    background-color: #F00;
+    color: #fff;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+}
+/* subscriber ends */
+/* footer starts */
+footer {
+    margin-top: 100px;
+    padding-top: 100px;
+    background: #070211;
+    height: 400px;
+    color: #FFF; 
+    font-family: Inter; 
+    font-weight: 500; 
+    font-size: 24px; 
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+#foot .row {
+    max-width: 1320px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+#foot .row p {
+    padding-bottom: 100px;
+}
+#foot .row-images {
+    padding-bottom: 100px;
+    max-width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+}
+#foot .row-text {
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
